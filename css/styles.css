@@ -93,7 +93,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 72px;
+  font-size: 80px;
   line-height: 84px;
   color: var(--primary);
 }
@@ -118,7 +118,7 @@ html {
 }
 
 .description .about strong {
-  color: var(--secondary);
+  color: var(--primary);
 }
 .header_button {
   margin-top: 2rem;
@@ -142,31 +142,152 @@ html {
   background-color: var(--secondary);
   color: var(--primary);
 }
+
+.imgs img {
+  width: 450px !important;
+}
 .email {
-    position: fixed;
-    left: 0;
-    margin-left: -80px;
-    transform: rotate(-90deg);
+  position: fixed;
+  left: 0;
+  margin-left: -80px;
+  transform: rotate(-90deg);
 }
 .email p {
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  font-family: "Roboto", sans-serif;
   color: var(--tertiary);
-
 }
-
 
 .social {
-    position: fixed;
-    right: 0;
-    margin-right: 20px;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
 }
-.social li{
-    margin-top: 20px;
+.social li {
+  margin-top: 20px;
 }
-.social i{
-    font-size: 26px;
+.social i {
+  font-size: 26px;
+}
+.wrapper_skills_title p {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  max-width: 80%;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+.wrapper_skills_title hr {
+  width: 50px;
+  margin-top: 1rem;
+}
+
+.wrapper_skills {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  max-width: 80%;
+}
+.wrapper_skills img{
+  width: 50px;
+  padding: 20px;
+}
+
+
+@media screen and (min-width: 1367px) {
+  .wrapper_header {
+    margin: auto;
+    max-width: 80%;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--primary);
+  }
+  .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+ 
+  .description .work {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    color: var(--secondary);
+    margin-bottom: 2rem;
+  }
+
+  .description .about {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    color: var(--tertiary);
+    line-height: 21px;
+    margin-bottom: 5rem;
+  }
+  .description .about strong {
+    font-size: 25px;
+  }
+}
+
+/* Telefones em paisagem e abaixo */
+@media (max-width: 480px) {
+  /* estilos aqui */
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+  /* estilos aqui */
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 1366px) {
+  .wrapper_header {
+    margin: auto;
+    max-width: 80%;
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--primary);
+  }
+  .header_wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    margin-bottom: 2rem;
+  }
+  .title p {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+    color: var(--secondary);
+  }
+
+  .title h1 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 84px;
+    color: var(--primary);
+  }
+  .imgs img {
+    width: 300px;
+  }
+
 }
