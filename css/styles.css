@@ -149,6 +149,7 @@ html {
 .email {
   position: fixed;
   left: 0;
+  top: 50%;
   margin-left: -80px;
   transform: rotate(-90deg);
 }
@@ -164,6 +165,7 @@ html {
 .social {
   position: fixed;
   right: 0;
+  top: 50%;
   margin-right: 20px;
 }
 .social li {
@@ -171,6 +173,7 @@ html {
 }
 .social i {
   font-size: 26px;
+  color: var(--tertiary);
 }
 .wrapper_skills_title p {
   margin: auto;
